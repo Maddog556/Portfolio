@@ -1,0 +1,48 @@
+
+
+/* contains header and main */
+.body{
+    display: flex;
+    column-width: 712px;
+    padding-top: 90px;
+    padding-left: 311.5px;
+    padding-right: 311.5px;
+    column-gap: 50px; 
+
+}
+
+/* header / left side */
+
+.title-box{
+    display: flex;
+    flex-direction: column;
+    min-width: 624px;
+    color: #e2e8f0;
+    position:fixed;
+}
+.name{
+    font-size: 48px;
+    margin: 0px;
+}
+.mission{
+    font-size: 15px;
+    width: 312px;
+    overflow-wrap:break-word;
+    opacity: 60%;
+}
+.icons{
+    display: flex;
+    padding-top: 200px;
+    font-size: 25px;
+    column-gap: 16px;
+    padding-left: 0px;
+}
+
+/* main / right side  */
+
+.pushDiv{
+    color:#e2e8f0;
+    padding-left: 532px;
+    max-width: 624px;
+    overflow-wrap:break-word;
+}
