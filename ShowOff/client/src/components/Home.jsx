@@ -11,7 +11,7 @@ function Home() {
   return (
     <div className='body'>
         <header className='title-box'>
-        <h1 className='name'>Josh Maddox</h1>
+        <a href='https://www.linkedin.com/in/maddoxjosh' className='name'>Josh Maddox</a>
         <h3>full stack Web developer</h3>
         <p className='mission'>My mission is to become a team member of amazing people that all 
           love to make websites and to grow as a developer</p>
@@ -19,23 +19,30 @@ function Home() {
           <Navbar/>
           </nav>
         <ul className='icons'>
-          <FaGithub  href='https://github.com/Maddog556'/>
-          <FaLinkedin/>
-          <FaInstagram/>
+          <a href='https://github.com/Maddog556' className='iconsColor'><FaGithub /></a>
+          <a href='https://www.linkedin.com/in/maddoxjosh' className='iconsColor'><FaLinkedin/></a>
           </ul>
         </header>
         <main>
           <div className='pushDiv'>
-            <section id='section-1'><h1>About ME</h1>
-            <div id='about'>Being a Marine has instilled in me the core values of teamwork, discipline, and determination. These qualities have seamlessly transferred into my ability to work effectively with team members while building websites. Collaboration is key in both the military and web development. 
-            Just as Marines work together towards a common mission, I understand the importance of communication, cooperation, and trust when working on web projects. 
-            I value the unique skills and perspectives each team member brings to the table, and I thrive in an environment where ideas are shared and refined through constructive collaboration. 
-            Furthermore, my military background has honed my ability to adapt to changing circumstances, maintain focus under pressure, and meet deadlines with precision. This translates into my website development work, where I approach each project with discipline and a results-oriented mindset. 
-            Whether it's coordinating tasks, brainstorming ideas, or troubleshooting technical issues, I am committed to delivering exceptional websites that not only meet client requirements but also exceed expectations.</div> </section>
+            <section id='section-1'><h1 id='sec1Title'>About Me</h1>
+            <div id='about'>
+              <p id='q1' className='question'>Why did I want to be a Web Developer? 
+              </p>
+              <p id='a1' className='answers'>Reason why is it allows me to use my creative side and problem solving skills.
+                Another reason is when you find the solution to the problem there is no better feeling than solving it. 
+              </p>
+              <p id='q2' className='question'>Where I plan to grow in?
+              </p>
+              <p id='a2' className='answers'> I will become a expert with the MERN (MongoDB, Express, React, Node) stack method and to start learning new languages. 
+              </p> 
+            </div> </section>
             <section id='section-2'><Experience/></section>
             <section id='section-3'><Projects/></section>
+            <footer className='footer'>This website was made by josh Maddox using VS code and development by Netilfy</footer>
           </div>
         </main>
+       
     </div>
   )
 }

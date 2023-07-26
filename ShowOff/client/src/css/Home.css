@@ -16,26 +16,42 @@
 .title-box{
     display: flex;
     flex-direction: column;
-    min-width: 624px;
+    min-width: 528px;
     color: #e2e8f0;
     position:fixed;
+}
+#sec1Title{
+    color: aquamarine;
+    font-size: 35px;
+    text-decoration:underline;
 }
 .name{
     font-size: 48px;
     margin: 0px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.name:hover{
+    color: aquamarine;
 }
 .mission{
     font-size: 15px;
     width: 312px;
     overflow-wrap:break-word;
-    opacity: 60%;
+    opacity: 70%;
 }
 .icons{
     display: flex;
     padding-top: 200px;
-    font-size: 25px;
+    font-size: 35px;
     column-gap: 16px;
     padding-left: 0px;
+}
+.iconsColor{
+    color: aquamarine;
+}
+.iconsColor:hover{
+    opacity: 60%;
 }
 
 /* main / right side  */
@@ -45,4 +61,12 @@
     padding-left: 532px;
     max-width: 624px;
     overflow-wrap:break-word;
+}
+
+.question{
+    font-size: 20px;
+    margin: 0%;
+}
+.answers{
+    opacity: 70%;
 }
