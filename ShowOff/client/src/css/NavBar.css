@@ -1,9 +1,14 @@
-.links{
-    display: flex;
-    flex-direction: column;
-   
-}
-.linksColor{
+
+.navLinks{
     text-decoration:none;
     color: aliceblue;
+}
+.navLinks:hover{
+    color: aquamarine;
+}
+.scroll-to-section{
+color: rgb(0, 238, 255);
+}
+ul{
+   list-style-type:square; 
 }

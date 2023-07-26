@@ -1,12 +1,14 @@
 import React from 'react'
-import { FaGithub,FaLinkedin,FaInstagram } from "react-icons/fa6";
-import Navbar from './Navbar'
+import { FaGithub,FaLinkedin } from "react-icons/fa6";
+import Navbar from './Navbar.jsx'
 import Experience from './Experience.jsx'
 import Projects from'./Projects.jsx'
 import '../css/Home.css'
 
 
+
 function Home() {
+ 
 
   return (
     <div className='body'>
@@ -25,18 +27,19 @@ function Home() {
         </header>
         <main>
           <div className='pushDiv'>
-            <section id='section-1'><h1 id='sec1Title'>About Me</h1>
-            <div id='about'>
-              <p id='q1' className='question'>Why did I want to be a Web Developer? 
+            <section id='section-1' >
+            <h1 id='sec1Title'>About Me</h1>
+              <p id='q1' className='question'>Why do I want to be a Web Developer? 
               </p>
-              <p id='a1' className='answers'>Reason why is it allows me to use my creative side and problem solving skills.
+              <p id='a1' className='answers'>Reason, why is it allows me to use my creative side and problem solving skills.
                 Another reason is when you find the solution to the problem there is no better feeling than solving it. 
               </p>
               <p id='q2' className='question'>Where I plan to grow in?
               </p>
               <p id='a2' className='answers'> I will become a expert with the MERN (MongoDB, Express, React, Node) stack method and to start learning new languages. 
-              </p> 
-            </div> </section>
+              </p>
+              </section>
+
             <section id='section-2'><Experience/></section>
             <section id='section-3'><Projects/></section>
             <footer className='footer'>This website was made by josh Maddox using VS code and development by Netilfy</footer>
