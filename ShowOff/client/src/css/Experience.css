@@ -1,0 +1,125 @@
+
+
+#expTitle{
+  color: aquamarine;
+  font-size: 35px;
+  text-decoration: underline;
+}
+
+#chucksBeds{
+  color: aliceblue;
+  font-size: 30px;
+  text-decoration: none;
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  background-clip: text;
+  transition: all 0.3s ease-in-out;
+}
+#chucksBeds:before{
+  content: '';
+  background: #86ffd1;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+#chucksBeds:hover{
+  color: aquamarine;
+background-position: 0;  
+}
+#chucksBeds:hover::before{
+  width: 100%;
+}
+#exp1{
+  margin: 0%;
+  opacity: 70%;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+.img-Flex{
+  display: flex;
+  gap: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.skills{
+  font-size: 20px;
+  border-radius: 15px;
+  opacity: 80%;
+  background-image: linear-gradient(180deg,transparent,rgb(118, 255, 225)80%,rgb(73, 73, 73));
+  color: rgb(1, 73, 73);
+}
+.skills:hover{
+  background-color: rgb(75, 146, 122);
+  color: rgb(255, 255, 255);
+  opacity: 100%;
+}
+#chuckImg1{
+  height: 300px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#chuckImg1:hover {
+  opacity: 0.7;
+}
+#chuckImg2{
+height: 300px;
+border-radius: 5px;
+cursor: pointer;
+transition: 0.3s;
+}
+#chuckImg2:hover {
+  opacity: 0.7;
+}
+#vschool{
+  color:aliceblue;
+  font-size: 30px;
+  text-decoration: none;
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  background-clip: text;
+  transition: all 0.3s ease-in-out;
+}
+#vschool:before{
+  content: '';
+  background: #86ffd1;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+#vschool:hover{
+color: aquamarine;
+background-position: 0;  
+}
+#vschool:hover::before{
+  width: 100%;
+}
+#vsCert{
+  padding-top: 15px;
+  margin: 0%;
+  opacity: 70%;
+}
+#certImg{
+  height: 170px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#certImg:hover {
+  opacity: 0.7;
+}
