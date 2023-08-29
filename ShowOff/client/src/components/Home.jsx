@@ -42,7 +42,7 @@ function Home() {
 
             <section id='section-2'><Experience/></section>
             <section id='section-3'><Projects/></section>
-            <footer className='footer'>This website was made by josh Maddox using VS code and development by Netilfy</footer>
+            <footer className='footer'>This website was made by josh Maddox using VS code and Deployed by Netilfy nad Render</footer>
           </div>
         </main>
        

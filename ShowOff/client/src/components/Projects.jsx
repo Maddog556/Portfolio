@@ -1,12 +1,14 @@
 import React from 'react'
 import '../css/Projects.css'
+import Bounty from'../images/bountyhunter.png'
+import ZenG from '../images/zenG.png'
 
 function Projects() {
   return (
     <div className='Projects' >
         <h1 id='sec3Title'>Projects</h1>
-        <a id='project1'>FunnyFlix</a>
-         <p id='project1'> This is my version of netflix.</p> 
+        <a className="Pro-titles" id='project1'>FunnyFlix</a>
+         <p  className='pros-Texts'id='pro1-text'> This Project is example of connecting to a Third party API and used it by doing a Netflix Clone.</p> 
         <div className='Flex-p1'>
             <img id='funny1' 
              src ={''} 
@@ -17,28 +19,22 @@ function Projects() {
              alt='Img-2'/>
         </div>
         
-        <a id='project3'>Zen Garden</a> 
-        <p id='project2'> Zen Garden is a heavy Css learning project it was to make you website look like another with out copying the code. </p> 
-        <div className='Flex-p1'>
-            <img id='funny1' 
-             src ={''} 
-             alt='Img-1'/>
-          
-            <img id='chuckImg2' 
-             src ={''} 
-             alt='Img-2'/>
+        <a  className="Pro-titles"id='project2' href='https://zen-garden556.netlify.app/'>Zen Garden</a> 
+        <p  className='pros-Texts'id='pro2-Text'> This project is a heavy Css learning project it was made to look like another website called  
+              <a href='https://www.csszengarden.com/'id='Zen-Link'>CSSzengarden</a> with out copying any of the code. Deployed with Netilfy </p> 
+        <div className='Flex-p2'>
+            <a href='https://zen-garden556.netlify.app/'><img id='zenG' 
+             src ={ZenG} 
+             /></a>
         </div> 
        
-        <a id='project3'>this is project </a>
-        <p id='project3'>this is project </p>
+        <a className="Pro-titles" id='project3'  href='https://bounty-hunter-xp2m.onrender.com'>Bounty Hunter</a>
+        <p className='pros-Texts' id='project3'>This is project is about the CRUD(Create,Read,update,Delete) method of a restful API. You are able to add any name for the Bounty Hunter to find.Deployed with Render </p>
         <div className='Flex-p1'>
-            <img id='funny1' 
-             src ={''} 
-             alt='Img-1'/>
-          
-            <img id='chuckImg2' 
-             src ={''} 
-             alt='Img-2'/>
+          <a href='https://bounty-hunter-xp2m.onrender.com'>
+            <img id='bounty'
+            src={Bounty}
+            /></a>
         </div> 
         
     </div>

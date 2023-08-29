@@ -2,18 +2,18 @@
 
 #expTitle{
   color: aquamarine;
-  font-size: 35px;
+  font-size: 2.188rem;
   text-decoration: underline;
 }
 
 #chucksBeds{
   color: aliceblue;
-  font-size: 30px;
+  font-size: 1.875rem ;
   text-decoration: none;
   background-size: 200% 100%;
   background-position: -100%;
   display: inline-block;
-  padding: 5px 0;
+  padding: 0.313rem 0;
   position: relative;
   background-clip: text;
   transition: all 0.3s ease-in-out;
@@ -23,10 +23,10 @@
   background: #86ffd1;
   display: block;
   position: absolute;
-  bottom: -3px;
+  bottom: -0.188rem;
   left: 0;
   width: 0;
-  height: 3px;
+  height: 0.188rem;
   transition: all 0.3s ease-in-out;
 }
 #chucksBeds:hover{
@@ -39,19 +39,19 @@ background-position: 0;
 #exp1{
   margin: 0%;
   opacity: 70%;
-  padding-top: 15px;
-  padding-bottom: 5px;
+  padding-top: 0.938rem;
+  padding-bottom:0.313rem;
 }
 .img-Flex{
   display: flex;
-  gap: 15px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  gap: 0.938rem;
+  padding-top: 1.875rem;
+  padding-bottom: 1.875rem;
 }
 
 .skills{
-  font-size: 20px;
-  border-radius: 15px;
+  font-size: 1.25rem;
+  border-radius: 0.938rem;
   opacity: 80%;
   background-image: linear-gradient(180deg,transparent,rgb(118, 255, 225)80%,rgb(73, 73, 73));
   color: rgb(1, 73, 73);
@@ -62,8 +62,8 @@ background-position: 0;
   opacity: 100%;
 }
 #chuckImg1{
-  height: 300px;
-  border-radius: 5px;
+  height: 18.75rem;
+  border-radius: 0.313rem;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -72,8 +72,8 @@ background-position: 0;
   opacity: 0.7;
 }
 #chuckImg2{
-height: 300px;
-border-radius: 5px;
+height: 18.75rem;
+border-radius:0.313rem;
 cursor: pointer;
 transition: 0.3s;
 }
@@ -82,12 +82,12 @@ transition: 0.3s;
 }
 #vschool{
   color:aliceblue;
-  font-size: 30px;
+  font-size: 1.875rem;
   text-decoration: none;
   background-size: 200% 100%;
   background-position: -100%;
   display: inline-block;
-  padding: 5px 0;
+  padding: 0.313rem 0;
   position: relative;
   background-clip: text;
   transition: all 0.3s ease-in-out;
@@ -97,10 +97,10 @@ transition: 0.3s;
   background: #86ffd1;
   display: block;
   position: absolute;
-  bottom: -3px;
+  bottom: -0.188rem;
   left: 0;
   width: 0;
-  height: 3px;
+  height:0.188rem;
   transition: all 0.3s ease-in-out;
 }
 #vschool:hover{
@@ -111,12 +111,12 @@ background-position: 0;
   width: 100%;
 }
 #vsCert{
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 0.938rem;
+  padding-bottom: 0.938rem;
   margin: 0%;
   opacity: 70%;
 }
 #certImg{
-  height: 170px;
-  border-radius: 5px;
+  height:10.625rem;
+  border-radius: 0.313rem;
 }

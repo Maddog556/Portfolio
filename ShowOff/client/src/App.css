@@ -4,5 +4,5 @@
 }
 ::-webkit-scrollbar-thumb{
     background-image: linear-gradient(aquamarine,grey);
-    border-radius: 30px;
+    border-radius:1.875rem;
 }

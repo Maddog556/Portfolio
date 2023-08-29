@@ -3,10 +3,7 @@ const app = express()
 const morgan = require('morgan')
 const mongoose = require('mongoose')
 require('dotenv').config() 
-const {expressjwt} = require('express-jwt')
-
-
-
+// const {expressjwt} = require('express-jwt')
 
 //middleware (for every request)
 app.use(express.json())
@@ -20,9 +17,9 @@ mongoose.connect(process.env.MONGO_URL,()=>console.log('connected to mongodb dat
 //routes
 // no login required 
 // app.use('/auth', require('./routes/authRouter.js'))
-app.use("/api", expressjwt({secret: process.env.SECRET, algorithms: ['HS256']}))
+// app.use("/api", expressjwt({secret: process.env.SECRET, algorithms: ['HS256']}))
 // express-jwt is a npm package it is a gate keeper it checks for token
-app.use('/api/likes', require('./routes/likesRouter.js'))
+// app.use('/api/likes', require('./routes/likesRouter.js'))
 
 
 //Error handler and to have these 4 params 
