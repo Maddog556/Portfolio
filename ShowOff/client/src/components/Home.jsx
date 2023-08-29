@@ -13,7 +13,7 @@ function Home() {
   return (
     <div className='body'>
         <header className='title-box'>
-        <a href='https://www.linkedin.com/in/maddoxjosh' className='name'>Josh Maddox</a>
+        <a href='https://www.linkedin.com/in/maddoxjosh' target='_blank' className='name'>Josh Maddox</a>
         <h3>full stack Web developer</h3>
         <p className='mission'>My mission is to become a team member of amazing people that all 
           love to make websites and to grow as a developer</p>
@@ -21,8 +21,8 @@ function Home() {
           <Navbar/>
           </nav>
         <ul className='icons'>
-          <a href='https://github.com/Maddog556' className='iconsColor'><FaGithub /></a>
-          <a href='https://www.linkedin.com/in/maddoxjosh' className='iconsColor'><FaLinkedin/></a>
+          <a href='https://github.com/Maddog556' target='_blank' className='iconsColor'><FaGithub /></a>
+          <a href='https://www.linkedin.com/in/maddoxjosh' target='_blank' className='iconsColor'><FaLinkedin/></a>
           </ul>
         </header>
         <main>
