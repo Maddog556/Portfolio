@@ -16,6 +16,7 @@
 .title-box{
     display: flex;
     flex-direction: column;
+    padding-top: 1.5rem;
     min-width: 33rem;
     color: #e2e8f0;
     position:fixed;

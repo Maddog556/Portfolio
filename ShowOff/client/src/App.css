@@ -6,3 +6,7 @@
     background-image: linear-gradient(aquamarine,grey);
     border-radius:1.875rem;
 }
+#footer{
+    color: aliceblue;
+    opacity: 60%;
+}

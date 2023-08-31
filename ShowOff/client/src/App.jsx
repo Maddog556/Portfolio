@@ -7,7 +7,8 @@ function App() {
 
   return (
     <div className='App'>
-       <Home/>   
+       <Home/> 
+       <footer id='footer'>This website was made by Josh Maddox.Deployed with Netilfy and Render</footer>  
     </div>
   )
 }

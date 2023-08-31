@@ -12,50 +12,50 @@ function Experience() {
 
   return (
     <div className='expDiv'><h1 id='expTitle'>Experience</h1>
-      <a id='chucksBeds' href='https://www.chucksbeds.com/'>ChucksBeds.com</a>
+      <a id='chucksBeds' href='https://www.chucksbeds.com/'target='_blank'>ChucksBeds.com</a>
       <p id='exp1'>This is a local bed store also a group project using</p> 
-          <a href='https://www.squarespace.com/'> 
+          <a href='https://www.squarespace.com/'target='_blank'> 
             <button className='skills' >Square Space
             </button></a>
-          <a href='https://www.w3schools.com/css/css_intro.asp'>
+          <a href='https://www.w3schools.com/css/css_intro.asp'target='_blank'>
               <button className='skills'>CSS
               </button></a>
-          <a href='https://www.w3schools.com/html/html_intro.asp'>
+          <a href='https://www.w3schools.com/html/html_intro.asp'target='_blank'>
               <button className='skills'>HTML
               </button></a>
-          <a href='https://www.w3schools.com/js/js_intro.asp'>
+          <a href='https://www.w3schools.com/js/js_intro.asp'target='_blank'>
               <button className='skills'>Javascript
               </button></a>
         {/* images when clicked on will be a link to the website as well key words content box  */}
         <div className='img-Flex'>
-           <a href='https://www.chucksbeds.com/'> <img id='chuckImg1' 
+           <a href='https://www.chucksbeds.com/'target='_blank'> <img id='chuckImg1' 
              src ={ChucksBeds}
              alt='Img-1'/></a>
         
-        <a href='https://www.chucksbeds.com/'> <img id='chuckImg2' 
+        <a href='https://www.chucksbeds.com/'target='_blank'> <img id='chuckImg2' 
              src ={ChucksBeds2} 
              alt='Img-2'/></a>
         </div>
 
-        <a id='vschool' href='https://vschool.io/?utm_campaign=brand&utm_term=v%20school&utm_campaign=&utm_source=adwords&utm_medium=ppc&hsa_acc=9527963468&hsa_cam=19846380230&hsa_grp=151002812150&hsa_ad=651646594743&hsa_src=g&hsa_tgt=kwd-356608130362&hsa_kw=v%20school&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjwiIOmBhDjARIsAP6YhSU6sJZe6lDmDhcZHRe9tkS_qhNe2jgPP2lZKwt9Zxuoje5ruC8Ftu4aAizHEALw_wcB'>
+        <a id='vschool' href='https://vschool.io/?utm_campaign=brand&utm_term=v%20school&utm_campaign=&utm_source=adwords&utm_medium=ppc&hsa_acc=9527963468&hsa_cam=19846380230&hsa_grp=151002812150&hsa_ad=651646594743&hsa_src=g&hsa_tgt=kwd-356608130362&hsa_kw=v%20school&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjwiIOmBhDjARIsAP6YhSU6sJZe6lDmDhcZHRe9tkS_qhNe2jgPP2lZKwt9Zxuoje5ruC8Ftu4aAizHEALw_wcB'target='_blank'>
           V-school.com</a>
         <p id='vsCert'>This is the Online school I used to achive my certifaction in Full statck web development and learned about the MERN stack method.</p>
         
-        <a href={Cert}><img id='certImg' 
+        <a href={Cert} target='_blank'><img id='certImg' 
              src ={Cert} 
              alt='Img-3'/></a>
 
         <h1>Methods taught in V-school</h1>
-        <a href='https://www.w3schools.com/css/css_intro.asp'>
+        <a href='https://www.w3schools.com/css/css_intro.asp'target='_blank'>
               <button className='skills'>CSS
               </button></a>
-          <a href='https://www.w3schools.com/html/html_intro.asp'>
+          <a href='https://www.w3schools.com/html/html_intro.asp'target='_blank'>
               <button className='skills'>HTML
               </button></a>
-          <a href='https://www.w3schools.com/js/js_intro.asp'>
+          <a href='https://www.w3schools.com/js/js_intro.asp'target='_blank'>
               <button className='skills'>Javascript
               </button></a>
-              <a href='https://www.geeksforgeeks.org/mern-stack/'>
+              <a href='https://www.geeksforgeeks.org/mern-stack/' target='_blank'>
               <button className='skills'>MERN Stack
               </button></a>
           
