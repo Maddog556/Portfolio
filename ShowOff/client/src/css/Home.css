@@ -75,3 +75,24 @@
 .answers{
     opacity: 70%;
 }
+
+@media(max-width: 600px){
+    .pushDiv{
+        padding-left: 0%;
+    }
+    .title-box{
+        position:absolute;
+    }
+    #section-1{
+        padding-top: 27rem;
+    }
+    .body{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .icons{
+        justify-content: flex-end;
+        padding-top: 1rem;
+        margin: 0rem;
+    }
+}
