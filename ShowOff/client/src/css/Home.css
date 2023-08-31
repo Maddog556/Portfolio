@@ -76,9 +76,10 @@
     opacity: 70%;
 }
 
-@media(max-width: 600px){
+@media(max-width: 700px){
     .pushDiv{
         padding-left: 0%;
+        max-width: 27rem;
     }
     .title-box{
         position:absolute;
@@ -89,9 +90,9 @@
     .body{
         padding-left: 1rem;
         padding-right: 1rem;
+        column-width: 0rem;
     }
     .icons{
-        justify-content: flex-end;
         padding-top: 1rem;
         margin: 0rem;
     }
