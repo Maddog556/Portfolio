@@ -14,9 +14,9 @@ function Home() {
     <div className='body'>
         <header className='title-box'>
         <a href='https://www.linkedin.com/in/maddoxjosh' target='_blank' className='name'>Josh Maddox</a>
-        <h3>full stack Web developer</h3>
-        <p className='mission'>My mission is to become a team member of amazing people that all 
-          love to make websites and to grow as a developer</p>
+        <h3>Full-Stack Web Developer</h3>
+        <p className='mission'>Hi, I’m Josh a recent graduate of V School’s mastery-based program with 1,000+ hours of Web Development.  
+              I’m passionate about both personal and professional growth and I am focused on expanding my knowledge in all aspects of development.</p>
          <nav className='navbar'>
           <Navbar/>
           </nav>
@@ -31,12 +31,20 @@ function Home() {
             <h1 id='sec1Title'>About Me</h1>
               <p id='q1' className='question'>Why do I want to be a Web Developer? 
               </p>
-              <p id='a1' className='answers'>Reason, why is it allows me to use my creative side and problem solving skills.
-                Another reason is when you find the solution to the problem there is no better feeling than solving it. 
+              <p id='a1' className='answers'>It allows me to use my creative side and problem solving skills while making amazing websites.
+                There is something satisfying about finding the solution to a problem when your are developing websites. 
               </p>
               <p id='q2' className='question'>Where I plan to grow in?
               </p>
-              <p id='a2' className='answers'> I will become a expert with the MERN (MongoDB, Express, React, Node) stack method and to start learning new languages. 
+              <p id='a2' className='answers'> I Plan to grow and become an expert in the skills I have leraned with MERN (MongoDB, Express, React, Node) stack method, HTML, CSS, React, Javascript and to start learning new languages after that. 
+              </p>
+              <p id='q1' className='question'>Something interesting about yourself. 
+              </p>
+              <p id='a1' className='answers'>I'm a huge Star Wars fan of the first 6 movies and the tv show can talk to you for hours about them. 
+              </p>
+              <p id='q1' className='question'>What five words could be used to describe you? 
+              </p>
+              <p id='a1' className='answers'>Kind, helpful, problem solver, eager, and creative. 
               </p>
               </section>
 

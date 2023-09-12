@@ -37,6 +37,7 @@
     text-decoration: none;
 }
 .name:hover{
+    text-decoration: underline;
     color: aquamarine;
 }
 .mission{
@@ -88,12 +89,17 @@
         padding-top: 27rem;
     }
     .body{
-        padding-left: 1rem;
         padding-right: 1rem;
         column-width: 0rem;
+        padding-top: 3rem;
     }
     .icons{
         padding-top: 1rem;
         margin: 1rem;
+    }
+}
+@media(max-width: 300px){
+    #section-1{
+        padding-top: 30rem;
     }
 }
